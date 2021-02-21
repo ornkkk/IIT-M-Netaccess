@@ -4,7 +4,6 @@ import selenium
 import selenium.webdriver
 from selenium.webdriver.firefox.options import Options
 import time
-import os
 
 #--------------------------------firefox---------------------------------
 firefox_options = Options()
@@ -52,7 +51,6 @@ try:
 	print("Netaccess Successful!")
  
 except Exception:
-	#### This exception occurs if the element are not found in the webpage.
 	print("Error!!!")
 	browser.quit()
 
