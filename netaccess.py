@@ -44,11 +44,14 @@ try:
 	durationElement.click()
 	approve  = browser.find_element_by_name(htmlElementApprove)
 	approve.click()
+	
+	print("Netaccess Successful!")
+	
+	print("Closing program...")
  
-	time.sleep(1)
+	#time.sleep(1)
 	browser.quit()
 
-	print("Netaccess Successful!")
  
 except Exception:
 	print("Error!!!")
