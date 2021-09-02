@@ -12,7 +12,7 @@ This is the *python script* file for the website blocker.
 
 This is the *unit file* for running the python script as a system service and loading it at startup.
 
-### Installation Instructions(LINUX - UBUNTU and Debian Based Linux)
+### Installation Instructions (LINUX - UBUNTU and Debian Based Linux)
 
 - Download the repository by executing following commands
 
