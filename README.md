@@ -64,7 +64,7 @@ Select an editor.  To change later, run 'select-editor'.
 Select your preferred text editor and add the following line with necessary changes at the end of the file.
 '''
 MIN HOUR DOM MON DOW ./home/<user>/Downloads/IIT-M-Netaccess/netaccess.py
--------------------------------------------------------------------------------
+
 MIN      Minute field    0 to 59
 HOUR     Hour field      0 to 23
 DOM      Day of Month    1-31
