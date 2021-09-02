@@ -73,4 +73,9 @@ MON      Month field     1-12
 DOW      Day Of Week     0-6
 CMD      Command         Any command to be executed.
 ```
+For example, If you want to run the script at 12:00PM Everyday, change the line to the following:
+```
+00 12 * * * ./home/<user>/Downloads/IIT-M-Netaccess/netaccess.py
+```
+Save the file and exit. Now the script will run at 12:00PM everyday(If your PC/Laptop is ON) and also at startup.
 
