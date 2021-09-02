@@ -1,0 +1,13 @@
+[Unit]
+Description=Netaccess
+After=network.target network-online.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStartPre=/bin/mkdir -p /var/run/netaccess
+PIDFile=/var/run/netaccess/service.pid
+ExecStart=<ABSOLUTE-PATH-TO-PYTHON-SCRIPT>
+
+[Install]
+WantedBy=multi-user.target
