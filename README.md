@@ -51,26 +51,26 @@ pwd = "Password" #Replace with your password
 
 ### To run the script at a scheduled time
 Execute the following commands
-'''
+```
 crontab -e
-'''
+```
 The terminal will ask for your preferred text editor as follows
-'''
+```
 Select an editor.  To change later, run 'select-editor'.
   1. /bin/nano        <---- easiest
   2. /usr/bin/vim.tiny
   3. /bin/ed
-'''
+```
 Select your preferred text editor and add the following line with necessary changes at the end of the file.
-'''
+```
 MIN HOUR DOM MON DOW ./home/<user>/Downloads/IIT-M-Netaccess/netaccess.py
-'''
-'''
+```
+```
 MIN      Minute field    0 to 59
 HOUR     Hour field      0 to 23
 DOM      Day of Month    1-31
 MON      Month field     1-12
 DOW      Day Of Week     0-6
 CMD      Command         Any command to be executed.
-'''
+```
 
